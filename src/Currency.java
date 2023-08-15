@@ -88,11 +88,6 @@ public class Currency extends javax.swing.JFrame {
         amt.setText(" ");
         amt.setToolTipText("amount");
         amt.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 255)));
-        amt.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                amtFocusGained(evt);
-            }
-        });
         amt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 amtActionPerformed(evt);
